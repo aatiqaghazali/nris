@@ -1,0 +1,29 @@
+.navigation {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    max-height: 150px;
+    overflow-y: scroll;
+ 
+    background-color: rgb(0, 0, 0);
+    color: white;
+}  
+
+/* Customize the scrollbar */
+.navigation::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+
+/* Handle */
+.navigation::-webkit-scrollbar-thumb {
+    background-color: #E78F00; /* Color of the handle */
+    border-radius: 5px; /* Rounded corners for the handle */
+}
+
+/* Handle on hover */
+.navigation::-webkit-scrollbar-thumb:hover {
+    background-color: #be862b; /* Color of the handle on hover */
+}
+select#country option[value="USA"]  
+ { background-image:url("../../../assets/imgs/us.svg");   }

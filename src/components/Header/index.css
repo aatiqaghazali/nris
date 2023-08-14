@@ -1,0 +1,16 @@
+.header
+{
+    background-image: url("../../assets/imgs/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+@media (max-width:700px) {
+    
+}
+
+.header_left_content .main_text span
+{
+    letter-spacing: 17px;
+
+}

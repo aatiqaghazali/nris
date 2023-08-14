@@ -1,0 +1,39 @@
+.categories_area_top
+{
+    background: white;
+    background-image: url("../../assets/imgs/categories_bg.png");
+    background-position:bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+   
+
+
+    
+   
+  
+}
+.categories_area_bottom
+{
+    background: white;
+    background-image: url("../../assets/imgs/categories_bg2.png");
+    background-position:bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+
+  
+}
+.categories_area_movies
+.categories_area_bottom
+{
+    background: white;
+    
+    min-height: 500px;
+
+  
+}
+.categories_content_movies {
+    max-height: 2500px; /* Set a suitable max height for small screens */
+    overflow-y: auto; /* Add vertical scroll when content overflows */
+  }
